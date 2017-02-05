@@ -6,8 +6,6 @@ def handleupdate(active, completed, diffs):
     
     for diff in diffs:
         
-        print diff.plays
-        
         for p in diff.plays:
             
             print p
