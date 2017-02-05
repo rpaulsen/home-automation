@@ -10,9 +10,9 @@ def handleupdate(active, completed, diffs):
         
         for p in diff.plays:
             
+            print p
+            
             if (p.team == 'ATL' and (p.touchdown == True or p.kicking_fgm>0)):
-                
-                print p
                 
                 b = Bridge(ip='192.168.1.176',username='hV8sjEd6bLs8Bo9M7UJlVM8sYC4UbHWtO54SN62K')
                 
